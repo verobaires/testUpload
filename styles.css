@@ -1,0 +1,73 @@
+
+
+ @import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,h2 {
+  font-family: "Anton SC", sans-serif;
+  color: green;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.bg-image-title {
+  font-size: 6rem;
+  color: transparent;
+  background-image: url(../img/varios_mangas.jpg);
+  background-size: cover;
+  background-position: top;
+  background-clip: text;
+  text-align: center;
+  padding: 26px;
+  margin-bottom: 20px;
+}
+
+.heroParagraph p {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.hero img{
+  width: 40%;
+}
+
+/* carousel */
+.reviews {
+    margin-top: 50px;
+}
+
+
+footer{
+    background-color: black;
+}
+
+footer div{
+    text-align: center;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    height: 10vh;
+    align-items: center;
+    font-size: 1.5rem;   
+}
+
+footer ul i{
+    color: white;
+}
+
+.mt-5{
+  margin-top: 10rem !important;
+}
